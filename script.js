@@ -1,4 +1,3 @@
-//DATE AND TIME//
 setInterval(displayTimeAndDate, 1000);
 function displayTimeAndDate() {
   let now = new Date();
@@ -69,8 +68,6 @@ function displayTimeAndDate() {
   weatherAppDate.innerHTML = `${day} ${month} ${date} ${year} | ${formattedHours}:${formattedMinutes}:${formattedSeconds} ${timeOfDay}`;
 }
 
-//SUBMIT BUTTON//
-
 function showTemperature(response) {
   let temp = Math.round(response.data.main.temp);
   document.querySelector("#temperature").innerHTML = temp + `°F`;
@@ -94,8 +91,6 @@ function showCity(event) {
 
 let form = document.querySelector("#city-form");
 form.addEventListener("submit", showCity);
-
-// CURRENT LOCATION BUTTON
 
 function getCurrentPosition(event) {
   event.preventDefault();

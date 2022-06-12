@@ -1,0 +1,32 @@
+body {
+  font-family: PTP "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0 50px;
+  font-weight: 800px;
+  background-color: rgb(60, 129, 161);
+}
+
+h1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 100px;
+  padding: 30px, 10px, 30px, 10px;
+  color: rgb(5, 11, 131);
+}
+
+h1 h2,
+h3 {
+  color: #12075d;
+  text-align: left;
+}
+
+.search-eng-btn {
+  text-align: center;
+}
+.row {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 25px;
+  text-align: center;
+}

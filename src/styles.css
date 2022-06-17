@@ -1,8 +1,13 @@
 body {
-  font-family: PTP "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 0 50px;
   font-weight: 800px;
-  background-color: rgb(60, 129, 161);
+  background-color: rgb(132, 195, 225);
+  border-width: 50px;
+  border-style: solid;
+  border-color: hsl(216, 38%, 97%);
+  border-radius: 5px;
+  top: 10px;
 }
 
 h1 {
@@ -29,4 +34,12 @@ h3 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 25px;
   text-align: center;
+}
+.forecast {
+  text-align: center;
+  font-size: 22px;
+  color: #ab47bc;
+  border-style: solid;
+  border-color: #eedaf2;
+  position: relative;
 }
